@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 4</title>
+  <style>
+    /* for display */
+    /* .box{
+      padding: 10px;
+display: grid;
+background-color: red;
+margin-bottom: 5px;
+gap: 10px;
+
+    }
+    .element{
+    
+      padding: 20px 30px;
+      background-color: black;
+      color: white;
+display: inline-block;
+    } */
+
+/* For flex */
+.box{
+  height: 485px;
+  display:flex;
+ align-items: baseline;
+ justify-content:space-evenly ;
+  background-color: greenyellow;
+ gap: 10px;
+
+}
+button{
+  height: 50px;
+  margin-bottom: 10px;
+}
+#box1{
+  order: 3;
+  height: 70px;
+}
+#box2{
+  height: 340px;
+  order: 1;
+  align-self: flex-end;
+}
+#box3{
+  order:2;
+  /* flex-grow: 1; */
+  /* flex-shrink: 2; */
+ 
+}
+  </style>
+</head>
+<body>
+  <!-- <div class="box">
+    <div class="element">First</div>
+    <div class="element">Second</div>
+    <div class="element">Third</div>
+  </div>
+  <div class="box">
+    <div class="element">First</div>
+    <div class="element">Second</div>
+    <div class="element">Third</div>
+  </div> -->
+
+  <!-- For flex -->
+<div class="box">
+  <button id="box1">element 1</button>
+  <button id="box2">element 2</button>
+  <button id="box3">element 3</button>
+  
+  
+</div>
+</body>
+</html>
